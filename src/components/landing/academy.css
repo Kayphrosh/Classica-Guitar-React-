@@ -1,0 +1,207 @@
+.academy-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 80px;
+    margin-top: 4rem;
+    background-color: #2A0B00;
+    /* background-image: url(./Images/event.svg); */
+    background-position: center center;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+
+    /* width: 100%; */
+    height: 100%;
+    min-height: 100vh;
+}
+
+.academy-container header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.academy-container header h2 {
+    font-family: 'Cormorant';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.academy-container header p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 1rem;
+}
+
+.levels {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    width: 100%;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    align-items: center;
+    margin-top: 64px;
+    overflow: hidden;
+}
+.level {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #361206;
+    height: 500px;
+    padding: 0 2rem;
+    /* width: 450px; */
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.level-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin-bottom: 24px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 80px;
+}
+.level-icon .iconify {
+    color: #15002E;
+    font-size: 36px;
+}
+.level-text {
+    padding-bottom: 2rem;
+}
+.level .level-text h4 {
+    font-family: 'Cormorant';
+    text-align: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFF;
+    margin-bottom: 1rem;
+}
+.level-text p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+   text-align: center;
+    color: #F0F0F0;
+}
+.level-cta {
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.57);
+}
+.level-cta p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #f0f0f0;
+}
+.level-cta button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 55px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background: none;
+    color: #FFF;
+    border: 1px solid #F0F0F0;
+    outline: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.academy-container .biography-link{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* identical to box height, or 156% */
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 64px;
+}
+.biography-link a {
+    color: #E31512;
+}
+.academy-container aside {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 1rem;
+    align-items: center;
+    margin-left: auto;
+}
+.academy-container aside  button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #F6A23C;
+    outline: none;
+    background: none;
+    border-radius: 80px;
+    margin-top: 36px;
+}
+.academy-container aside p {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #F0F0F0;
+}
+@media (max-width: 986px) {
+    .academy-container {
+        padding: 24px 1rem;
+    }
+}
+@media (max-width: 786px) {
+    .academy-container {
+        padding: 100px 1rem;
+    }
+    .academy-container header h2 {
+        font-size: 36px;
+        line-height: 44px;
+        letter-spacing: 0.01em;
+        /* text-align: left; */
+    }
+    .academy-container header p {
+        text-align: center;
+    }
+    .level {
+        padding: 0 1rem;
+
+    }
+
+    .academy-container aside {
+        margin-left: 0;
+        margin-top: 48px;
+    }
+}

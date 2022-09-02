@@ -1,0 +1,38 @@
+.donation-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(../images/contact-bg.jpg);
+    background-blend-mode: multiply;
+    background-position: center center;
+    background-repeat: none;
+    background-size: cover;
+    height: 400px;
+}
+
+.donation-header h3 {
+    font-family: 'Cormorant';
+    font-weight: 600;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+.donation-header p {
+    max-width: 500px;
+    margin-top: 1rem;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width: 768px) {
+    .donation-header {
+        margin-top: 60px;
+        padding: 0 1rem;
+    }
+    .donation-header h3 {
+        font-size: 42px;
+    }
+
+}

@@ -1,0 +1,63 @@
+.donation-progress {
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+
+    margin-top:100px;
+}
+.donation-progress header h4{
+    font-family: 'Cormorant';
+    font-style: normal;
+font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    color: #111111;
+}
+
+.progress {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+.progress span {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 1rem;
+    flex-basis: 25%;
+    height: 100px;
+    border-right: 1px solid #444444;
+}
+.progress span:nth-child(4) {
+    border-right: none !important;
+}
+.progress span h5{ 
+    font-size: 24px;
+    font-weight: 500;
+}
+.progress span p{ 
+    font-size: 20px;
+}
+
+@media (max-width: 768px) {
+    .donation-progress { 
+        padding: 0 1rem;
+     }
+     .progress {
+        flex-direction: column;
+        row-gap:  2rem;
+        align-items: center;
+        justify-content: left;
+     }
+
+    .progress span {
+        border: none;
+        align-items: center;
+        justify-content: left;
+
+    }
+    .progress span p {
+        font-size: 20px;
+    }
+}

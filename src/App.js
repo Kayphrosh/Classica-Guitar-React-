@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import { Routes, Route } from "react-router-dom";
+import LandingPage from './components/landing/LandingPage';
+import Donation from './components/Dontation/Donation';
+import DonationForm from "./components/Dontation/DonationForm";
+import Gallery from "./components/Gallery/Gallery";
+import Gallery2017 from "./components/Gallery/Gallery2017";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Routes>
+        <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/donation" element={<Donation />}></Route>
+        <Route path="/donation_form" element={<DonationForm />}></Route>
+        <Route path="/gallery" element={<Gallery />}></Route>
+        <Route path="/gallery/gallery2017" element={<Gallery2017 />}></Route>
+      </Routes>
+      {/* <LandingPage />
+      <Donation /> */}
     </div>
   );
 }
