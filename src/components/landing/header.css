@@ -1,7 +1,7 @@
 .heroe-container {
     height: 100;
     width: 100%;
-    background-color: #1a1a1a;
+    background-color: #2E0C0B;
 }
 
 .heroe-section {
@@ -118,7 +118,7 @@
     width: 100%;
     object-fit: cover;
     object-position: center;
-    height: 280px;
+    height: 250px;
     border-radius: 10px;
 }
 /*  .big-image iframe{
@@ -180,8 +180,10 @@
     }
     .big-image {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         margin-top: 3rem;
+        column-gap: .5rem;
+        row-gap: .5rem;
     }   
     .big-image img{ 
         height: 200px;

@@ -4,7 +4,7 @@ import LandingPage from './components/landing/LandingPage';
 import Donation from './components/Dontation/Donation';
 import DonationForm from "./components/Dontation/DonationForm";
 import Gallery from "./components/Gallery/Gallery";
-import Gallery2017 from "./components/Gallery/Gallery2017";
+import Gallery2018 from "./components/Gallery/Gallery2018";
 import './App.css';
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
         <Route path="/donation" element={<Donation />}></Route>
         <Route path="/donation_form" element={<DonationForm />}></Route>
         <Route path="/gallery" element={<Gallery />}></Route>
-        <Route path="/gallery/gallery2017" element={<Gallery2017 />}></Route>
+        <Route path="/gallery/gallery2018" element={<Gallery2018 />}></Route>
       </Routes>
       {/* <LandingPage />
       <Donation /> */}

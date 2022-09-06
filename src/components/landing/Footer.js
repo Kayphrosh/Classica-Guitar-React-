@@ -33,9 +33,6 @@ function Footer() {
             <li>
               <a href="#">Volunteers</a>
             </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
           </ul>
         </div>
 
@@ -50,13 +47,7 @@ function Footer() {
               <a href="#">Gallery</a>
             </li>
             <li>
-              <a href="#">Policies</a>
-            </li>
-            <li>
               <a href="#">Donate</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
             </li>
           </ul>
         </div>
