@@ -397,7 +397,7 @@ function Gallery2018() {
               key={idx}
               onClick={() => getImg(image.imgSrc)}
             >
-              <img src={image.imgSrc} alt="" style={{ width: '100%' }} />
+              <img src={image.imgSrc} alt="" />
             </div>
           );
         })}
