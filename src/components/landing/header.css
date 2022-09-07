@@ -106,7 +106,7 @@
 
 .big-image {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     justify-content: center;
     align-items: center;
     /* width: 100%; */
@@ -152,7 +152,7 @@
     }
     .big-image {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         margin-top: 3rem;
     }   
 }
@@ -180,7 +180,7 @@
     }
     .big-image {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
         margin-top: 3rem;
         column-gap: .5rem;
         row-gap: .5rem;

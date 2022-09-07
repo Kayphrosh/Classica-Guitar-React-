@@ -174,9 +174,9 @@
 .model img {
     width: auto;
     max-width: 100%;
-    height: fit-content;
-    max-height: 100%;
-    display: block;
+    /* height: -moz-fit-content; */
+    /* max-height: 100%; */
+    display: table;
     line-height: 0;
     box-sizing: border-box;
     padding: 1rem;
