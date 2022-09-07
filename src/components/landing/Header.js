@@ -7,18 +7,16 @@ import HeaderImg3 from '../images/headerImg3.jpg';
 import HeaderImg4 from '../images/headerImg4.jpg';
 import Navbar from './Navbar';
 
-
 function Header() {
+  const YTvideos =
+    'https://www.youtube.com/embed/wsALfL4BYAE?controls=0&amp;autoplay=1&mute=1';
 
-    const YTvideos = 'https://www.youtube.com/embed/wsALfL4BYAE?controls=0&amp;autoplay=1&mute=1'
-
-    const [model, setModel] = useState(false);
-    const [tempimgSrc, setTempImgSrc] = useState(' ');
-    const getImg = (YTvideos) => {
-      setTempImgSrc(YTvideos);
-      setModel(true);
-    };
-
+  const [model, setModel] = useState(false);
+  const [tempimgSrc, setTempImgSrc] = useState(' ');
+  const getImg = (YTvideos) => {
+    setTempImgSrc(YTvideos);
+    setModel(true);
+  };
 
   return (
     <section className="heroe-container">
@@ -33,11 +31,16 @@ function Header() {
           </p>
 
           <div className="heroe-cta">
-            <Link to="/gallery">
-              <button>Explore Gallery</button>
-            </Link>
-
-            <button onClick={() => getImg(YTvideos)}>Watch Video</button>
+            <span>
+              <Link to="/gallery">
+                <button>Explore Gallery</button>
+              </Link>
+            </span>
+            <span>
+              <Link to="/donation">
+                <button className="donate-header-btn">Donate</button>
+              </Link>
+            </span>
           </div>
         </main>
 
@@ -46,16 +49,14 @@ function Header() {
           <img src={HeaderImg2} alt="" />
           <img src={HeaderImg3} alt="" />
           <img src={HeaderImg4} alt="" />
-
-
-      </div>
-      <div className={model ? 'model open' : 'model'}>
-        <img src={tempimgSrc} />
-        <button onClick={() => setModel(false)}>
-          <iconify-icon icon="carbon:close"></iconify-icon>
-        </button>
-      </div>
-      {/* <div className="youtube-video">
+        </div>
+        <div className={model ? 'model open' : 'model'}>
+          <img src={tempimgSrc} />
+          <button onClick={() => setModel(false)}>
+            <iconify-icon icon="carbon:close"></iconify-icon>
+          </button>
+        </div>
+        {/* <div className="youtube-video">
       <iframe src={YTvideos} title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; picture-in-picture" allowfullscreen></iframe>
         </div> */}
       </header>

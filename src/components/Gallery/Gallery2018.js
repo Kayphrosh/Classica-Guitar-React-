@@ -1,14 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Img1 from './Images/1.JPG';
-// import Img1 from './Images/1.JPG';
-// import Img3 from '../images/headerImg3.jpg';
-// import Img4 from '../images/headerImg4.jpg';
-// import Img5 from '../images/amb.JPG';
-// import Img6 from '../images/amb.JPG';
-// import Img7 from '../images/amb.JPG';
-// import Img8 from '../images/amb.JPG';
-// import Img9 from '../images/amb.JPG';
 import './gallery.css';
 function Gallery2018() {
   const navigate = useNavigate();
@@ -397,7 +389,7 @@ function Gallery2018() {
               key={idx}
               onClick={() => getImg(image.imgSrc)}
             >
-              <img src={image.imgSrc} alt="" />
+              <img src={image.imgSrc} alt="" style={{ width: '100%' }} />
             </div>
           );
         })}
