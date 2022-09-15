@@ -31,7 +31,7 @@ function Gallery() {
           <div className="image-section">
             <img src={Thumbmail2019} />
             <footer>
-              <p>Event 2019</p>
+              <p>2019 Event</p>
               <a>view all</a>
             </footer>
           </div>
@@ -41,7 +41,7 @@ function Gallery() {
           <div className="image-section">
             <img src={Thumbmail2021} />
             <footer>
-              <p>Event 2021</p>
+              <p>2021 Event</p>
               <a>view all</a>
             </footer>
           </div>
@@ -51,7 +51,7 @@ function Gallery() {
           <div className="image-section">
             <img src={Thumbmail2022} />
             <footer>
-              <p>Event 2021</p>
+              <p>2022 Event</p>
               <a>view all</a>
             </footer>
           </div>

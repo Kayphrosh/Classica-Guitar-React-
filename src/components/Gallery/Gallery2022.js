@@ -486,7 +486,7 @@ function Gallery2022() {
         <button onClick={() => navigate(-1)}>
           <iconify-icon icon="bx:arrow-back"></iconify-icon>
         </button>
-        <p>2018 Event</p>
+        <p>2022 Event</p>
       </nav>
 
       <main className="images">
