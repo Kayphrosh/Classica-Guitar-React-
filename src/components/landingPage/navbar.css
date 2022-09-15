@@ -1,0 +1,149 @@
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+    background: #FFF;
+    height: 80px;
+  }
+  .logo {
+    display: flex;
+  }
+  .logo img {
+    width: 90px;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+  }
+  .nav-links a {
+    color: #333;
+  }
+  .hamburger {
+    display: none;
+  }
+  .cta-btn button {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 45px;
+    background: #107670;  
+    border: 1px solid #107670;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 50px;
+    outline: none;
+  }
+  
+  @media (max-width: 786px) {
+    .navbar {
+        /* flex-direction: column-reverse; */
+        background: rgba(255, 255, 255, 0.9);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        padding: 0 1rem;
+        margin-top: 0rem;
+        position: fixed;
+        /* min-height: 50vh; */
+        /* min-height: 100vh; */
+        width: 100%;
+        z-index: 1111;
+    }
+    .logo img {
+        width: 70px;
+    }
+    .cta-btn {
+        display: none;
+    }
+    .nav-links {
+        display: none;
+    }
+    .nav-active {
+        display: none;
+        justify-content: center;
+        flex-direction: column;
+        position:absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        /* min-height: 100vh; */
+        /* background-image: url(./images/bgg.jpg); */
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #2A0B00;
+        background-blend-mode: multiply;
+        z-index: 1;
+        padding:0 1rem;
+        padding-bottom: 4rem;
+        padding-top: 100px;
+        transition: 0.3s ease;
+        row-gap: 1.5rem;
+        overflow: hidden !important;
+    }
+    .nav-active li {
+        display: flex;
+    }
+    .nav-active a {
+        font-size: 18px;
+        font-weight: 600;
+        padding-bottom: 1.5rem;
+        border-bottom: 1.5px solid #fff;
+        color: #fff;
+        width: 100%;
+    }
+    .hamburger {
+        display: flex;
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        z-index: 11111111;
+    }
+    .hamburger #close {
+        display: none;
+        color: #fff;
+    }
+    .hamburger .iconify {
+        font-size: 36px;
+    }
+  
+    .heroe-text {
+        margin-top: 10rem;
+        padding:0 .5rem;
+    }
+    .heroe-text h2 {
+        /* text-align: left; */
+        font-size: 36px;
+        line-height: 54px;
+        letter-spacing: 0.005em;
+        width: 100%;
+    }
+  
+  
+    .waiting-list-form {
+        flex-direction: column;
+        row-gap: 1rem;
+        padding: 0 1rem;
+        width: 100%;
+    }
+    .waiting-list-form input {
+        width: 100%;
+        border-width: 1.5px;
+        border-radius: 5px !important;
+    }
+    .waiting-list-form button {
+        height: 60px;
+        min-width: 100%;
+        border-radius: 5px !important;
+    }
+    .big-image iframe {
+        max-height: 400px;
+    }
+  }
+  

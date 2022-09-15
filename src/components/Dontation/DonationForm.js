@@ -1,9 +1,9 @@
 import React from 'react';
 import './donation-form.css';
 
-import Navbar from '../landing/Navbar';
+import Navbar from '../landingPage/Navbar';
 import Header from './Header';
-import Footer from '../landing/Footer';
+import Footer from '../landingPage/Footer';
 
 function DonationForm() {
   return (

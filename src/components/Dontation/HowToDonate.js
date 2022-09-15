@@ -16,7 +16,7 @@ function HowToDonate() {
             Every contribution makes a huge difference. Your Donation goes a
             long way
           </p>
-          <Link to="/donation_form">
+          <Link>
           <button>Donate</button>
           </Link>
         </div>
@@ -28,7 +28,7 @@ function HowToDonate() {
             long way
           </p>
 
-          <Link to="/donation_form">
+          <Link>
           <button>Donate</button>
           </Link>
         </div>
@@ -39,7 +39,7 @@ function HowToDonate() {
             Every contribution makes a huge difference. Your Donation goes a
             long way
           </p>
-          <Link to="/donation_form">
+          <Link>
           <button>Donate</button>
           </Link>
         </div>
