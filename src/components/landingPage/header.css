@@ -46,12 +46,11 @@
 }
 .heroe-cta {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
     margin-top: 2rem;
     column-gap: 1.5rem;
     width: 100%;
 }
+
 
 .heroe-cta button {
     font-family: 'Inter', sans-serif;
@@ -59,7 +58,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    /* min-width: 180px; */
+    max-width: 180px;
     height: 50px;
     background: #107670;  
     border: 1px solid #107670;
@@ -174,6 +173,7 @@
         margin-top: 10rem;
         padding:0 .5rem;
     }
+
     .heroe-text h2 {
         text-align: left;
         font-size: 42px;
@@ -183,6 +183,14 @@
     }
     .heroe-text p {
         font-size: 16px;
+    }
+    .heroe-cta button {
+        width: 100%;
+        max-width: 200px;
+        flex-basis: 50%;
+    }
+    .heroe-cta span {
+        flex-basis: 50%;
     }
     .big-image {
         display: grid;
