@@ -169,33 +169,36 @@ function Gallery2019() {
       imgSrc: require('./2019EVENTS/41.jpg'),
     },
     {
-      id: 41,
-      imgSrc: require('./2019EVENTS/41.jpg'),
+      id: 42,
+      imgSrc: require('./2019EVENTS/42.jpg'),
     },
     {
-      id: 41,
-      imgSrc: require('./2019EVENTS/41.jpg'),
+      id: 43,
+      imgSrc: require('./2019EVENTS/43.jpg'),
     },
     {
-      id: 41,
-      imgSrc: require('./2019EVENTS/41.jpg'),
+      id: 44,
+      imgSrc: require('./2019EVENTS/44.jpg'),
     },
     {
-      id: 41,
-      imgSrc: require('./2019EVENTS/41.jpg'),
+      id: 45,
+      imgSrc: require('./2019EVENTS/45.jpg'),
     },
     {
-      id: 41,
-      imgSrc: require('./2019EVENTS/41.jpg'),
+      id: 46,
+      imgSrc: require('./2019EVENTS/46.jpg'),
     },
     {
-      id: 41,
-      imgSrc: require('./2019EVENTS/41.jpg'),
+      id: 47,
+      imgSrc: require('./2019EVENTS/47.jpg'),
     },
-
     {
-      id: 41,
-      imgSrc: require('./2019EVENTS/41.jpg'),
+      id: 48,
+      imgSrc: require('./2019EVENTS/48.jpg'),
+    },
+    {
+      id: 49,
+      imgSrc: require('./2019EVENTS/49.jpg'),
     },
   ];
 

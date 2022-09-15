@@ -308,22 +308,6 @@ function Gallery2021() {
       id: 77,
       imgSrc: require('./2021EVENTS/77.jpg'),
     },
-    {
-      id: 78,
-      imgSrc: require('./2021EVENTS/78.jpg'),
-    },
-    {
-      id: 79,
-      imgSrc: require('./2021EVENTS/79.jpg'),
-    },
-    {
-      id: 80,
-      imgSrc: require('./2021EVENTS/80.jpg'),
-    },
-    {
-      id: 81,
-      imgSrc: require('./2021EVENTS/81.jpg'),
-    },
   ];
 
   const [model, setModel] = useState(false);
