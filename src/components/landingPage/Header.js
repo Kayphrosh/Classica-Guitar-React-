@@ -41,15 +41,6 @@ function Header() {
           <img src={HeaderImg3} alt="" />
           <img src={HeaderImg4} alt="" />
         </div>
-        {/* <div className={model ? 'model open' : 'model'}>
-          <img src={tempimgSrc} />
-          <button onClick={() => setModel(false)}>
-            <iconify-icon icon="carbon:close"></iconify-icon>
-          </button> */}
-        {/* </div> */}
-        {/* <div className="youtube-video">
-      <iframe src={YTvideos} title="YouTube video player" frameborder="0"  allow="accelerometer; autoplay; clipboard-write; picture-in-picture" allowfullscreen></iframe>
-        </div> */}
       </header>
     </section>
   );

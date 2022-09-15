@@ -46,20 +46,20 @@
 }
 .heroe-cta {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     margin-top: 2rem;
     column-gap: 1.5rem;
+    width: 100%;
 }
-.heroe-container span {
-    flex-basis: 50%;
-}
+
 .heroe-cta button {
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-basis: 50%;
     width: 100%;
-    max-width: 180px;
+    /* min-width: 180px; */
     height: 50px;
     background: #107670;  
     border: 1px solid #107670;
@@ -144,7 +144,11 @@
     object-position: top center;
     
 } */
-
+@media (min-width: 1086px) {
+    .heroe-cta button {
+        min-width: 180px;
+    }
+}
 @media (max-width: 986px) {
     .heroe-section { 
         flex-direction: column;
