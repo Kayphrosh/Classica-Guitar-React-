@@ -18,7 +18,7 @@ function Header() {
           <p>
             Reviving Ethnic music and Classical Guitar Music in Africa through
             education, Arrangment and performance of African folksongs and
-            compositions{' '}
+            compositions.
           </p>
 
           <div className="heroe-cta">
